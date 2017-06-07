@@ -1,4 +1,4 @@
-package es.menorcadesign.grails.plugin.blog
+package es.menorcadesign.grails.plugins.blog
 
 class UrlMappings {
 

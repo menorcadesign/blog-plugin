@@ -2,7 +2,7 @@
 grails:
     profile: web-plugin
     codegen:
-        defaultPackage: es.menorcadesign.grails.plugin.blog
+        defaultPackage: es.menorcadesign.grails.plugins.blog
     spring:
         transactionManagement:
             proxies: false
