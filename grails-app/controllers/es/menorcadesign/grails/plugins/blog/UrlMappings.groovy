@@ -1,4 +1,4 @@
-package es.menorcadesign.grails.plugin.blog
+package es.menorcadesign.grails.plugins.blog
 
 class UrlMappings {
 
@@ -9,8 +9,8 @@ class UrlMappings {
             }
         }
 
-        "/"(view: "/index")
-        "500"(view: '/error')
-        "404"(view: '/notFound')
+        "/blog"(controller: 'post', action: 'index')
+        "/blog/$id"(controller: 'post', action: 'show')
+
     }
 }
